@@ -36,7 +36,7 @@ $text = $_POST["text"]
      $response = "END Your balance is" .$balance;
  }
 
-header('Content-type; text/plain');
+header('Content-type: text/plain');
 echo $response;
 
 ?>
